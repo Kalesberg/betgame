@@ -1,0 +1,248 @@
+.order-page [type=search]{
+    outline: 0 none;
+    outline-offset: 0px;
+    -webkit-appearance: textfield;
+}
+
+.order-page #investors_tbl .action-div a{
+    color: #187bd6;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+.order-page #investors_tbl .action-div a.sportbooks{
+    color: #c50000;
+}
+
+.order-page #investors_tbl .action-div a:hover,
+.order-page #investors_tbl .action-div a:active
+{
+    color: #16528a;
+}
+
+.order-page .enter_order-page{
+    display: flex;
+}
+
+.order-page .enter_order-page{
+    display: flex;
+}
+.order-page .enter_order-page .bet-div{
+    flex: 0 400px;
+    margin-right: 20px;
+}
+.order-page .enter_order-page .bet-div hr{
+   border-width: 2px; 
+}
+
+.order-page .enter_order-page .iframe-div{
+    position: relative;
+    flex: 1 0;
+    display: flex;
+    justify-content: center;
+}
+
+.order-page .enter_order-page .iframe-div .vpn-alert{
+    position: fixed;
+    top: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+.order-page .enter_order-page .iframe-div b{
+    color: #e21a1a;
+    font-size: 35px;
+}
+
+.order-page .enter_order-page .iframe-div iframe{
+    width: 100%;
+    border: 0px;
+}
+.order-page .enter_order-page .bet-div .bet-div_inner-wrapper label{
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px
+}
+.order-page .enter_order-page .bet-div .bet-div_inner-wrapper span.investor_name{
+    font-size: 26px;
+    font-weight: 500;
+    display: block;
+    margin: 10px 0px;
+}
+.order-page .enter_order-page .bet-div .bet-div_inner-wrapper span.investor_name i{
+    padding-right: 10px;
+}
+.order-page .enter_order-page .bet-div .bet-div_inner-wrapper span{
+    font-size: 16px
+}
+
+.order-page .enter_order-page .bet-div .red{
+    color: red;
+}
+.order-page .enter_order-page .element-box{
+    padding: 15px 10px;
+}
+.order-page .enter_order-page .bet-div .bet-info{
+
+}
+
+.order-page .enter_order-page .bet-div .bet-info .description{
+    font-size: 20px;
+    font-weight: 500;
+}
+.order-page .enter_order-page .bet-div .bet-info .setting-span{
+    font-size: 16px;
+    padding-right: 0px;
+}
+.order-page .enter_order-page .bet-div .bet-info .setting-span:first-of-type{
+    padding-right: 15px;
+}
+.order-page .enter_order-page .bet-div .bet-info .setting-span.number{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.order-page .enter_order-page .bet-div .bet-info .total-div{
+  float: right;
+}
+.order-page .enter_order-page .bet-div .bet-info .total-div label{
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.order-page .enter_order-page .bet-div .bet-info .total-div span{
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+
+.order-page .enter_order-page .bet-div .title{
+    margin-left: 30px;
+    font-weight: bold;
+}
+.order-page .enter_order-page .bet-div table{
+    text-align: center;
+}
+.order-page .enter_order-page .bet-div .bet-div_inner-wrapper span.summary{
+    display: block;
+    font-weight: bold;
+    font-size: 35px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.order-page .enter_order-page .bet-info table td{
+    padding: 5px 5px;
+    font-size: 14px;
+}
+
+.order-page .enter_order-page .bet-info table td.bold{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.order-page .enter_order-page .bet-info .description-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.order-page .enter_order-page .bet-info .description-div .description-div_type{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.order-page .enter_order-page .bet-info .description-div .description-div_type img{
+    margin-right: 7px;
+}
+.order-page .enter_order-page .bet-info .form-header{
+    margin-bottom: 0px;
+}
+
+.order-page .enter_order-page .sportbookList{
+    
+}
+.order-page .enter_order-page .sportbookList .sportbookList_inner-wrapper{
+    max-height: 400px;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+
+.order-page .enter_order-page .sportbookList .sportbookList_inner-wrapper .gray{
+    background-color: #bfbfbf;
+    color: #000;
+    font-weight: bold;
+}
+
+.order-page .enter_order-page .sportbookList thead th{
+    padding:5px;
+    font-size: 14px;
+}
+.order-page .enter_order-page .sportbookList thead{
+    font-weight: bold;
+    background-color: #bfbfbf;
+    color: #000;
+}
+.order-page .enter_order-page .sportbookList table td{
+    padding: 5px;
+}
+.order-page .enter_order-page .sportbookList .sportbook-tr{
+    cursor: pointer;
+}
+.order-page .enter_order-page .sportbookList .sportbook-tr.selected{
+    background-color: #f3de3a;
+}
+
+.order-page .enter_order-page .sportbookList .sportbook-tr.placed{
+    background-color: #24b314;
+    color: #fff;
+}
+.order-page .enter_order-page .sportbookList .sportbook-tr.no_bet{
+    background-color: #e65252;
+    color: #fff;
+}
+
+.order-page .enter_order-page .action-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-page .enter_order-page .action-div form
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-page .enter_order-page .action-div .prev-img,
+.order-page .enter_order-page .action-div .next-img{
+    width: 50px;
+}
+
+.order-page .enter_order-page .action-div .next-img{
+    transform: rotate(180deg); 
+}
+
+.order-page .enter_order-page .action-div .btn{
+    height: 50px;
+    margin: 0px 5px;
+}
+
+.order-page .enter_order-page .action-div .btn.reassign{
+    background-color: #ffc252;
+    border-color: #ffc252;
+}
+
+.order-page .sportbook-balance .input-balance{
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 38px;
+}
+
+#reassign_sportbook_id{
+    font-size: 20px;
+}

@@ -1,0 +1,880 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ccc !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ccc !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ccc !important;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 130;
+}
+.header .navbar{
+    padding: 0px 20px;
+}
+.header .navbar .navbar-nav li{
+    padding: 8px 0px;
+}
+.header .navbar .navbar-nav li .dropdown-menu{
+    margin-top: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    border-top: none;
+}
+
+.header .navbar .navbar-nav li .dropdown-menu .dropdown-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #343a40;
+    color: rgba(255,255,255,.5);
+}
+.header .navbar .navbar-nav li .dropdown-menu .dropdown-item:hover{
+    color: #fff;
+}
+
+.clearfix{
+    clear: both;
+}
+.loading-div{
+    display: none;
+}
+.loading-div-inner{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.8);
+}
+.page-title
+{
+    margin-top: 20px;
+}
+
+#main{
+    padding: 20px;
+}
+.content-div{
+    overflow-x: auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.bottom-sheet{
+    z-index: 100;
+    position: fixed;
+    bottom: 0px;
+    background: #fff;
+    width: 100%;
+    border-top: 1px solid #eee;
+}
+
+.enter-game .table-wrapper {
+    overflow-x: scroll;
+}
+
+.enter-game .handsontable table.htCore th,
+.pick-game .handsontable table.htCore th, 
+.all-picks .handsontable table.htCore th  {
+    word-wrap: break-word;
+    white-space: pre-line;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.enter-game .handsontable table.htCore thead tr th:nth-of-type(2),
+.enter-game .handsontable table.htCore tbody tr td:first-of-type
+{
+    display: none;
+}
+
+.pick-game .handsontable table.htCore thead tr th:nth-of-type(1),
+.pick-game .handsontable table.htCore tbody tr td:first-of-type
+{
+    display: none;
+}
+
+.enter-game table.htCore thead th,
+.pick-game table.htCore thead th
+{
+    background-color: #fff;
+    font-size: 15px;
+}   
+
+.pick-game .handsontable table.htCore tbody tr td:nth-of-type(6),
+.pick-game .handsontable table.htCore tbody tr td:nth-of-type(7),
+.pick-game .handsontable table.htCore tbody tr td:nth-of-type(8),
+.pick-game .handsontable table.htCore tbody tr td:nth-of-type(9),
+.pick-game .handsontable table.htCore tbody tr td:nth-of-type(10),
+.pick-game .handsontable table.htCore tbody tr td:nth-of-type(11){
+    padding: 0px 0px;
+}
+
+.enter-game .handsontable table.htCore thead tr:first-of-type th,
+.pick-game .handsontable table.htCore thead tr:first-of-type th
+{
+    font-size: 22px !important;
+}
+.enter-game .handsontable table.htCore thead tr:first-of-type th:nth-of-type(1),
+.enter-game .handsontable table.htCore thead tr:first-of-type th:nth-of-type(3){
+    border: none;
+}
+.pick-game .handsontable table.htCore thead tr:first-of-type th:nth-of-type(3){
+    font-weight: bold !important;
+    text-align: left;
+}
+.enter-game .handsontable table.htCore thead tr:first-of-type th:nth-of-type(9),
+.pick-game .handsontable table.htCore thead tr:first-of-type th:nth-of-type(6)
+{
+    background-color: #1e4dc3 !important;
+    color: #fff;
+    font-size: 22px !important;
+}
+
+.pick-game .handsontable table.htCore thead tr:first-of-type th:nth-of-type(9)
+{
+    background-color: #b6a704 !important;
+    color: #fff;
+}
+
+.pick-game#mlb .handsontable table.htCore thead tr:first-of-type th:nth-of-type(10)
+{
+    background-color: #b6a704 !important;
+    color: #fff;
+}
+
+.enter-game .handsontable table.htCore thead tr:first-of-type th:nth-of-type(14){
+    background-color: #b6a704 !important;     
+    color: #fff;
+}
+
+.pick-game .handsontable table.htCore tbody tr:nth-child(even) td,
+.pick-game .handsontable table.htCore tbody tr:nth-child(odd) td:nth-of-type(3),
+.pick-game .handsontable table.htCore tbody tr:nth-child(odd) td:nth-of-type(4)
+{
+    border-bottom: 3px solid #999999;
+}
+
+.all-picks .handsontable table.htCore thead tr:first-of-type th:nth-of-type(1),
+.all-picks .handsontable table.htCore thead tr:first-of-type th:nth-of-type(9),
+.all-picks .handsontable table.htCore thead tr:first-of-type th:nth-of-type(17)
+{
+    /*color: white !important;*/
+    font-size: 22px !important;   
+}
+.all-picks .handsontable table.htCore thead tr:first-of-type th:nth-of-type(1)
+{
+    background-color: rgb(169, 208, 142) !important;
+}
+.all-picks .handsontable table.htCore thead tr:first-of-type th:nth-of-type(9)
+{
+    background-color: #de2626 !important;
+}
+.all-picks .handsontable table.htCore thead tr:first-of-type th:nth-of-type(17)
+{
+    background-color: rgb(0, 176, 240) !important;
+}
+
+.worksheets .all-picks .handsontable table.htCore thead tr:first-of-type th:nth-of-type(1)
+{
+    background-color: rgb(169, 208, 142) !important;
+}
+.worksheets .all-picks .handsontable table.htCore thead tr:first-of-type th:nth-of-type(9)
+{
+    background-color: #de2626 !important;
+}
+.worksheets .all-picks .handsontable table.htCore thead tr:first-of-type th:nth-of-type(17)
+{
+    background-color: rgb(0, 176, 240) !important;
+}
+
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th,
+.pick-game .handsontable table.htCore thead tr:nth-of-type(2) th
+{
+    color: white !important;
+    font-size: 18px !important;
+    background-color: #3a3839 !important;
+}
+
+.enter-game #mlb .handsontable table.htCore thead tr:first-of-type th:nth-of-type(10),
+.enter-game #mlb .handsontable table.htCore thead tr:first-of-type th:nth-of-type(21){
+    background-color: #1e4dc3 !important;
+    color: #fff;
+    font-size: 22px !important;
+}
+
+.enter-game #mlb .handsontable table.htCore thead tr:first-of-type th:nth-of-type(21){
+    background-color: #b6a704 !important;
+    color: #fff;
+}
+
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(5),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(6),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(10),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(11),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(12),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(13),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(14),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(18),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(19),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(20),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(21),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(22)
+{   
+    background-color: #de2626 !important;
+}
+
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(8),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(9),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(15),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(16),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(17),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(18),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(19),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(20),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(22){
+    color: white !important;
+    font-size: 18px !important;
+    background-color: #1f9000 !important;
+}
+
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(20),
+.enter-game #mlb .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(23){
+    background-color: #3a3839 !important;
+}
+
+.all-picks .handsontable table.htCore thead tr:nth-of-type(2) th{
+    color: white !important;
+    background-color: rgb(208, 206, 206) !important;
+    border-top:1px solid;
+    border-color: #fff;
+}
+.all-picks .handsontable.ht_master table.htCore tbody tr td{
+    border-bottom-width: 0px;
+}
+.all-picks .handsontable.ht_master table.htCore tbody tr:last-of-type td{
+    border-bottom-width: 1px;
+}
+.all-picks .handsontable.ht_master table.htCore tbody tr:nth-of-type(even) td
+{
+    background-color: rgb(234, 228, 176) !important;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(5),
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(6),
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(9),
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(10),
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(14),
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(15)
+{
+    color: white !important;
+    font-size: 18px !important;
+    background-color: #de2626 !important;
+}
+
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(8),
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(12),
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(13),
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(17),
+.enter-game .handsontable table.htCore thead tr:nth-of-type(2) th:nth-of-type(18)
+{
+    color: white !important;
+    font-size: 18px !important;
+    background-color: #1f9000 !important;
+}
+
+.enter-game .handsontable table.htCore tbody tr td:nth-of-type(3)
+{
+    text-transform: uppercase;
+}
+
+.header-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-div .title{
+    font-size: 28px;
+}
+
+.header-div .header-left-div{
+    display: flex;
+    align-items: center;
+}
+
+.header-div .save-button-div{
+    text-align: right;
+}
+
+
+.game-week-select-div,
+.investor-select-div{
+    margin-right: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.game-week-select-div{
+
+}
+
+.game-week-select-div i{
+    line-height: 30px;
+    font-size: 20px;
+    padding: 0px 20px;
+    cursor: pointer;
+    opacity: .8
+}
+.game-week-select-div i:hover{
+    opacity: 1;
+}
+
+.game-week-select-div label,
+.investor-select-div label{
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+.content-div{
+    margin: 20px 0px 40px;
+}
+.footer-div{
+    padding: 0px 20px;
+}
+.pick-check-box{
+    line-height: 30px;
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.pick-check-box[checked="true"]{
+    color: #fff;
+}
+.pick-check-box.pick {
+    background-color: #3399ff;
+}
+.pick-check-box.wrapper {
+    background-color: #339900;
+}
+.pick-check-box.candy {
+    background-color: #ff0000;
+}
+.pick-check-box.compound {
+    background-color: #000000;
+}
+.popover{
+    -webkit-box-shadow: 0px 1px 30px -6px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 1px 30px -6px rgba(143,143,143,1);
+    box-shadow: 0px 1px 30px -6px rgba(143,143,143,1);
+}
+#popup-div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#popup-div div{
+    text-align:center;
+    display: block;
+}
+#popup-div div input{
+    cursor: pointer;
+}
+#popup-div div label{
+    display: block;
+    cursor: pointer;
+}
+
+.worksheets .setting_sheet1 .handsontable table.htCore thead th:nth-of-type(2),
+.worksheets .setting_sheet1 .handsontable table.htCore thead th:nth-of-type(3),
+.worksheets .setting_sheet1 .handsontable table.htCore thead th:nth-of-type(4)
+{
+    background-color: #548235;
+    color: #fff;
+    font-size: 15px;
+}
+
+.sheet_block_wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+.sheet_block{
+    position: relative;
+    float:left;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid blue;
+}
+.sheet_block.selected{
+    background-color: #f6fffa;
+}
+
+.sheet_block:hover .remove-icon{
+    display: block;
+}
+.sheet_block .remove-icon{
+    display: none;
+    content: '';
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    left: 0px;
+    background-image: url(../img/cross-icon.png);
+    background-size: cover;
+    background-color: #a3c1dc;
+}
+.sheet_block .parlay-icon{
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    right: 0px;
+    background-color: #ddd;
+}
+.sheet_block .parlay-icon.selected{
+    background-image: url(../img/check_icon.png);
+    background-color: #fff;
+    background-size: contain;
+}
+.sheet_block table{
+    width: 500px;
+}
+.sheet_block table tr:nth-last-child(3){
+    font-weight: bold;
+}
+.sheet_block table tr:last-of-type td{
+    font-size: 12px;
+}
+.sheet_block td{
+    border:1px solid #ccc;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px 5px;
+    height: 30px;
+}
+.sheet_block td.team{
+    text-align: left;
+}
+.sheet_block .mark-div{
+    display: inline-block;
+    border: 3px solid #000;
+    color: #4072c4;
+    float: right;
+    margin: 100px 0px 10px;
+    padding: 0px 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.sheet_block .bottom-div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.sheet_block tr.disabled{
+    color: red;
+    font-weight: bold;
+}
+
+.sheet_block.disabled .warning{
+    position: absolute;
+    background-image: url(../img/cross.png);
+    width: 100px;
+    height: 100px;
+    top: 70%;
+    left: 40%;
+    background-size: 100% 100%;
+}
+#bets .bets-inner{
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+#bets .bets-inner .setting_div{
+    flex: 0 0 400px;
+    position: relative;
+}
+
+#bets .bets-inner .all-picks{
+    flex: 1 0;
+    position: relative;
+}
+
+.pick-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+.pick-check label{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+}
+#bet_summary table{
+    margin: auto;
+}
+#bet_summary table thead td{
+    font-weight: bold;
+    font-size: 25px;
+}
+#bet_summary table td{
+    border: 1px solid #ccc;
+    border: 1px solid #ccc;
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 22px;
+}
+#bet_summary table td.title{
+    width: 200px;
+    text-align: left;
+}
+#bet_summary table td.title a{
+    color: #2f93d2;
+    font-weight: bold;
+}
+#bet_summary table td.title.selectecd a{
+    color: #b11d1d;
+}
+
+#bet_summary table td.total_allocation{
+    color: #ff0000;
+    font-weight: bold;
+}
+#bet_sheet{
+    overflow-y: auto;
+}
+
+#bets_custom{
+    padding: 0px 20px;
+}
+#bets_custom #bets_custom_inner-wrapper{
+    float: left;
+    margin-right: 50px;
+    overflow-y: auto;
+}
+#bets_custom #bets_custom_inner-wrapper #bets_custom_inner{
+    width: 700px;
+    text-align: center;
+}
+#bets_custom .action-div{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.custom-bet-item
+{
+    display: inline-block;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 570px;
+}
+.custom-bet-item .remove-icon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.custom-bet-item .bet-item-header{
+    padding: 50px 0px 10px;
+    text-align: center;
+}
+.custom-bet-item .bet-item-header span,
+.custom-bet-item .bet-item-header label,
+.custom-bet-item .bet-item-header input
+{   
+    display: inline-block;
+    width: 50px;
+    margin: 10px 0px 10px 10px;
+}
+.custom-bet-item .bet-item-header span{
+    width: 150px;
+}
+
+.custom-bet-item .rr-content .select-div,
+.custom-bet-item .parlay-content .select-div{
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.custom-bet-item .bet-item-header button{
+    float: right;
+}
+.custom-bet-item .remove-select-icon{
+    margin-left: 10px;
+}
+
+td.details-control {
+    background: url('../img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../img/details_close.png') no-repeat center center;
+}
+
+#main.sportbook-page,
+#main.investor-page,
+#main.order-page
+{
+    padding:0px 20px;
+}
+
+#main .setting-header{
+    padding: 0px;
+}
+#main .setting-header p{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.no-border-radius{
+    border-radius: 0px !important;
+}
+.gray-top{
+    border-top: 5px solid #666;
+}
+
+.red-top{
+    border-top: 5px solid #df2626;
+}
+
+.blue-top{
+    border-top: 5px solid #288ffe;
+}
+
+.green-top{
+    border-top: 5px solid #58ac41;
+}
+#setting-table{
+    border: none;
+}
+#setting-table thead th{
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #666;
+}
+#setting-table td{
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#setting-table .tr-disabled{
+    background-color: #cfcfcf;
+}
+
+.worksheets .bets-wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.worksheets .bets-wrapper .bets-wrapper_setting{
+    flex: 0 0 400px;
+    margin-right: 20px;
+}
+.worksheets .bets-wrapper .bets
+{
+    flex: 1 0;
+    overflow: auto;
+}
+
+.worksheets .bets-wrapper .bets .bets_inner-wrapper{
+    width: 1650px;
+}
+
+.worksheets .bets-wrapper .bets .bets_inner-wrapper> div{
+    width: 550px;
+    float: left;
+}
+
+.worksheets .bets-wrapper .bets .bets_inner-wrapper .element-box{
+    padding: 1.5rem 0px;
+}
+
+.worksheets .bets-wrapper .bets .bets_inner-wrapper .form-header{
+    padding-left: 20px;
+}
+
+.worksheets .roundrobbin-div .element-box{
+    padding: 10px;
+    text-align: center;
+    background-color: #70e88b;
+}
+.worksheets .bets .form-header
+{
+    padding-bottom: .5em;
+}
+
+.worksheets .bets td,
+.picks .all-picks td{
+    padding:7px 5px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.picks .all-picks{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.picks .all-picks .all-picks_inner-div{
+    min-width: 600px;
+    flex: 0 0 33%;
+}
+.picks .all-picks .all-picks_inner-div .element-box{
+    margin:0px 10px;
+}
+
+.worksheets #wrapper-table td:nth-of-type(5),
+.worksheets #candy-table td:nth-of-type(5),
+.worksheets #pick-table td:nth-of-type(5),
+.picks #wrapper-table td:nth-of-type(5),
+.picks #candy-table td:nth-of-type(5),
+.picks #pick-table td:nth-of-type(5){
+    text-align: left;
+}
+.game-title-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.game-title-wrapper .game-title{
+    font-size: 28px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.game-title-wrapper .game-title img{
+    margin-right: 10px;
+}
+
+.no-sub-menu{
+    margin-top: -45px;
+}
+
+.worksheets .roundrobbin-div .el-tablo.red{
+    background-color: #df2626;
+    color: #fff;
+}
+
+.worksheets .roundrobbin-div .el-tablo{
+    color: #666;
+}
+
+.worksheets .roundrobbin-div a.el-tablo:hover .value{
+    color: inherit !important;
+}
+
+.styled-checkbox-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+/* Remove System Checkbox */
+input[type="checkbox"].styled-checkbox {
+  display:none;
+}
+
+/* Fake checkbox made in CSS */
+.fake-checkbox {
+  display:inline-block;
+  width:20px;
+  height:20px;
+  vertical-align: middle;
+  background: #ededed;
+  border: 1px solid #aeaeae;
+  border-radius: 4px;
+  margin: 0 .5em 0 0;
+}
+
+/* Adding the checkmark when the checkbox is checked */
+input[type="checkbox"].styled-checkbox:checked + span:after {
+  content:"";
+  display:block;
+  width: 6px;
+  height: 18px;
+  border: solid #047bf8;
+  border-width: 0 4px 4px 0;
+  position:absolute;
+  top: .2em;
+  left: .5em;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+.popover-body{
+    padding: 0px !important;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    border-radius: 7px;
+}
+
+.popup-heading{
+    padding: 6px 15px;
+    background-color: #000033;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.popover-body .pick-button{
+    min-width: 83px;
+    margin: 5px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popover-body .pick-button:hover{
+    background: #ccc;
+}
+
+.popover-body .pick-button:hover{
+    background: #ccc;
+}
+
+.popover-body #pick.selected{
+    color: #fff;
+    background: #3399ff;
+}
+
+.popover-body #wrapper.selected{
+    color: #fff;
+    background: #339900;
+}
+
+.popover-body #candy.selected{
+    color: #fff;
+    background: #ff0000;
+}

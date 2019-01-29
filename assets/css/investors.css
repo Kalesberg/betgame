@@ -1,0 +1,115 @@
+.investor-page [type=search]{
+    outline: 0 none;
+    outline-offset: 0px;
+    -webkit-appearance: textfield;
+}
+
+.investor-page #investors_tbl th,
+.investor-page #investors_tbl td{
+    text-align: center;
+}
+.investor-page #investors_tbl .action-div a{
+    color: #187bd6;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+.investor-page #investors_tbl .action-div a.sportbooks{
+    color: #c50000;
+}
+
+.investor-page #investors_tbl .action-div a:hover,
+.investor-page #investors_tbl .action-div a:active
+{
+    color: #16528a;
+}
+
+
+.investor-page .investor_detail_table span{
+    display: inline-block;
+    text-align: right;
+}
+
+.investor-page .investor_detail_table span.label{
+    width: 250px;
+    text-align: left;
+}
+
+.investor-page .form span.info{
+    display: block;
+    padding: .375rem 0rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.investor-page .form .rule-div label{
+    display: inline-block;
+    width: 200px;
+}
+.investor-page .form .rule-div input{
+    padding: 2px 8px;
+    text-align: right;
+}
+.investor-page #sportbook_list{
+    width: 100%;
+}
+.investor-page #sportbook_list .remove-sportbook-icon .close{
+    float: none;
+}
+.investor-page .sub-title{
+    font-size: 17px;
+    font-style: italic;
+}
+
+.investor-page #user_sportbook_year_table{
+    display: none;
+}
+
+.investor-page .rule-div label{
+    display: inline-block;
+    width: 200px;
+}
+.investor-page .rule-div span.sp_value{
+    padding: 2px 8px;
+    text-align: right;
+}
+.investor-page .sportbook-select-div{
+    display: flex;
+    align-items: center;
+}
+.investor-page .sportbook-select-div label{
+    font-size: 20px;
+    font-weight: bold;
+    padding:0px 20px;
+}
+
+.allocation-page [type=search]{
+    outline: 0 none;
+    outline-offset: 0px;
+    -webkit-appearance: textfield;
+}
+
+.allocation-page #allocations_wrapper{
+    margin-top: 20px;
+}
+
+.allocation-page #allocations th,
+.allocation-page #allocations td{
+    text-align: center;
+}
+.allocation-page .hypo-bet-div{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.allocation-page .hypo-bet-div span{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.allocation-page .hypo-bet-div input[name=current_bet]{
+    padding: 5px;
+    border: 2px solid #3E4B5B;
+    outline: 0 none;
+    text-align: center;
+    margin-left: 10px;
+}
