@@ -2,3 +2,5 @@
 label: Blog
 hide_body: true
 fields: []
+pages:
+- Directory content/hello.md
